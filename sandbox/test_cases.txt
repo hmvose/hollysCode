@@ -1,0 +1,91 @@
+====================================
+MAP 1: Germany and the UK (programming_assignment1_input1.txt)
+====================================
+CASE 1: python3 find_route.py programming_assignment1_input1.txt Duesseldorf Hannover
+
+EXPECTED OUTPUT
+distance: 435 km
+route:
+Duesseldorf to Dortmund, 69 km
+Dortmund to Bremen, 234 km
+Bremen to Hannover, 132 km
+
+CASE 2: python3 find_route.py programming_assignment1_input1.txt Saarbruecken Leipzig
+
+EXPECTED OUTPUT
+distance: 662 km
+route:
+Saarbruecken to Frankfurt, 177 km
+Frankfurt to Nuremberg, 222 km
+Nuremberg to Leipzig, 263 km
+
+CASE 3: python3 find_route.py programming_assignment1_input1.txt Bristol Berlin
+
+EXPECTED OUTPUT
+distance: infinity
+route:
+none
+
+CASE 4: python3 find_route.py programming_assignment1_input1.txt Kassel Kassel
+
+EXPECTED OUTPUT
+distance: 0 km
+route:
+Kassel to Kassel, 0 km
+
+CASE 5: python3 find_route.py programming_assignment1_input1.txt Munich Luebeck
+
+EXPECTED OUTPUT
+distance: 923 km
+route:
+Munich to Nuremberg, 171 km
+Nuremberg to Leipzig, 263 km
+Leipzig to Madgeburg, 125 km
+Madgeburg to Hannover, 148 km
+Hannover to Hamburg, 153 km
+Hamburg to Luebeck63 63 km
+
+====================================
+MAP 2: Colorado and Florida (colorado_florida_map_2.txt)
+====================================
+CASE 1: python3 find_route.py colorado_florida_map_2.txt Winter_Park Colorado_Springs
+
+EXPECTED OUTPUT
+distance: 80 km
+route:
+Winter_Park to Golden, 35 km
+Golden to Denver, 10 km
+Denver to Aurora, 10 km
+Aurora to Colorado_Springs, 25 km
+
+CASE 2: python3 find_route.py colorado_florida_map_2.txt Commerce_City Estes_Park
+
+EXPECTED OUTPUT
+distance: 55 km
+route:
+Commerce_City to Broomfield, 10 km
+Broomfield to Longmont, 20 km
+Longmont to Estes_Park, 25 km
+
+CASE 3: python3 find_route.py colorado_florida_map_2.txt Daytona Jacksonville
+
+EXPECTED OUTPUT
+distance: 105 km
+route:
+Daytona to Cocoa_Beach, 45 km
+Cocoa_Beach to Orlando, 40 km
+Orlando to Jacksonville, 20 km
+
+CASE 4: python3 find_route.py colorado_florida_map_2.txt Tampa Denver
+
+EXPECTED OUTPUT
+distance: infinity
+route:
+none
+
+CASE 5: python3 find_route.py colorado_florida_map_2.txt Cocoa_Beach Cocoa_Beach
+
+EXPECTED OUTPUT
+distance: 0 km
+route:
+Cocoa_Beach to Cocoa_Beach, 0 km
